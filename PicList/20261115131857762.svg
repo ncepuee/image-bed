@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 920">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e293b" stroke-width="0.6"/></pattern>
+<marker id="a22d3ee" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#22d3ee"/></marker>
+<marker id="a34d399" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#34d399"/></marker>
+<marker id="aa78bfa" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#a78bfa"/></marker>
+<marker id="afbbf24" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#fbbf24"/></marker>
+<marker id="a60a5fa" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#60a5fa"/></marker>
+<marker id="aa9bad0" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#a9bad0"/></marker>
+</defs><style>text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif}</style>
+<rect width="100%" height="100%" fill="#0f172a"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<text x="40" y="52" font-size="30" fill="#f1f5f9" text-anchor="start" font-weight="700">数据中心供电架构：从传统 UPS 到原生 800 VDC</text>
+<text x="40" y="85" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="400">调研截止 2026-11-13｜功能示意；架构路线与公开参考设计分别标注</text>
+<rect x="30" y="120" width="1620" height="205" rx="15" fill="none" stroke="#a9bad0" stroke-dasharray="9 6" stroke-opacity="0.8"/>
+<text x="47" y="147" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="600">A  传统在线双变换 UPS</text>
+<polyline points="320,225 400,225" fill="none" stroke="#a9bad0" stroke-width="2.4" marker-end="url(#aa9bad0)"/>
+<polyline points="650,225 730,225" fill="none" stroke="#a9bad0" stroke-width="2.4" marker-end="url(#aa9bad0)"/>
+<polyline points="980,225 1060,225" fill="none" stroke="#a9bad0" stroke-width="2.4" marker-end="url(#aa9bad0)"/>
+<polyline points="1310,225 1390,225" fill="none" stroke="#a9bad0" stroke-width="2.4" marker-end="url(#aa9bad0)"/>
+<rect x="70" y="180" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="70" y="180" width="250" height="90" rx="10" fill="#a9bad0" fill-opacity="0.09" stroke="#a9bad0" stroke-width="1.7"/>
+<text x="195.0" y="221.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">低压交流</text>
+<text x="195.0" y="250.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">400 / 480 VAC</text>
+<rect x="400" y="180" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="400" y="180" width="250" height="90" rx="10" fill="#a9bad0" fill-opacity="0.09" stroke="#a9bad0" stroke-width="1.7"/>
+<text x="525.0" y="221.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">UPS AC/DC</text>
+<text x="525.0" y="250.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">整流 + DC link</text>
+<rect x="730" y="180" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="730" y="180" width="250" height="90" rx="10" fill="#a9bad0" fill-opacity="0.09" stroke="#a9bad0" stroke-width="1.7"/>
+<text x="855.0" y="221.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">UPS DC/AC</text>
+<text x="855.0" y="250.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">受保护交流母线</text>
+<rect x="1060" y="180" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="1060" y="180" width="250" height="90" rx="10" fill="#a9bad0" fill-opacity="0.09" stroke="#a9bad0" stroke-width="1.7"/>
+<text x="1185.0" y="221.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">PSU + DC/DC</text>
+<text x="1185.0" y="250.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">PFC + 后级</text>
+<rect x="1390" y="180" width="210" height="90" rx="10" fill="#0f172a"/>
+<rect x="1390" y="180" width="210" height="90" rx="10" fill="#a9bad0" fill-opacity="0.09" stroke="#a9bad0" stroke-width="1.7"/>
+<text x="1495.0" y="221.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">GPU / IT</text>
+<text x="1495.0" y="250.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">板级供电</text>
+<text x="70" y="303" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="400">成熟对照架构：PNNL / Generic-EMT 的传统 UPS–PSU 链</text>
+<rect x="30" y="360" width="1620" height="205" rx="15" fill="none" stroke="#60a5fa" stroke-dasharray="9 6" stroke-opacity="0.8"/>
+<text x="47" y="387" font-size="17" fill="#60a5fa" text-anchor="start" font-weight="600">B  800 VDC 改造型电源柜（Sidecar）</text>
+<polyline points="320,465 400,465" fill="none" stroke="#60a5fa" stroke-width="2.4" marker-end="url(#a60a5fa)"/>
+<polyline points="650,465 730,465" fill="none" stroke="#60a5fa" stroke-width="2.4" marker-end="url(#a60a5fa)"/>
+<polyline points="980,465 1060,465" fill="none" stroke="#60a5fa" stroke-width="2.4" marker-end="url(#a60a5fa)"/>
+<polyline points="1310,465 1390,465" fill="none" stroke="#60a5fa" stroke-width="2.4" marker-end="url(#a60a5fa)"/>
+<rect x="70" y="420" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="70" y="420" width="250" height="90" rx="10" fill="#60a5fa" fill-opacity="0.09" stroke="#60a5fa" stroke-width="1.7"/>
+<text x="195.0" y="461.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">既有交流设施</text>
+<text x="195.0" y="490.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">保留上游配电</text>
+<rect x="400" y="420" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="400" y="420" width="250" height="90" rx="10" fill="#60a5fa" fill-opacity="0.09" stroke="#60a5fa" stroke-width="1.7"/>
+<text x="525.0" y="461.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">AC/DC 电源柜</text>
+<text x="525.0" y="490.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">本地生成 800 V</text>
+<rect x="730" y="420" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="730" y="420" width="250" height="90" rx="10" fill="#60a5fa" fill-opacity="0.09" stroke="#60a5fa" stroke-width="1.7"/>
+<text x="855.0" y="461.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">800 VDC 配电</text>
+<text x="855.0" y="490.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">机架直流入口</text>
+<rect x="1060" y="420" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="1060" y="420" width="250" height="90" rx="10" fill="#60a5fa" fill-opacity="0.09" stroke="#60a5fa" stroke-width="1.7"/>
+<text x="1185.0" y="461.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">隔离 IBC + VRM</text>
+<text x="1185.0" y="490.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">近负载降压</text>
+<rect x="1390" y="420" width="210" height="90" rx="10" fill="#0f172a"/>
+<rect x="1390" y="420" width="210" height="90" rx="10" fill="#60a5fa" fill-opacity="0.09" stroke="#60a5fa" stroke-width="1.7"/>
+<text x="1495.0" y="461.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">GPU / IT</text>
+<text x="1495.0" y="490.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">板级供电</text>
+<text x="70" y="543" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="400">已有交流设施的过渡路线：不能直接称为中压 SST 原生供电</text>
+<rect x="30" y="600" width="1620" height="205" rx="15" fill="none" stroke="#34d399" stroke-dasharray="9 6" stroke-opacity="0.8"/>
+<text x="47" y="627" font-size="17" fill="#34d399" text-anchor="start" font-weight="600">C  原生 800 VDC（本文拟研究路线）</text>
+<polyline points="320,705 400,705" fill="none" stroke="#34d399" stroke-width="2.4" marker-end="url(#a34d399)"/>
+<polyline points="650,705 730,705" fill="none" stroke="#34d399" stroke-width="2.4" marker-end="url(#a34d399)"/>
+<polyline points="980,705 1060,705" fill="none" stroke="#34d399" stroke-width="2.4" marker-end="url(#a34d399)"/>
+<polyline points="1310,705 1390,705" fill="none" stroke="#34d399" stroke-width="2.4" marker-end="url(#a34d399)"/>
+<rect x="70" y="660" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="70" y="660" width="250" height="90" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="195.0" y="701.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">中压交流</text>
+<text x="195.0" y="730.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">设施入口</text>
+<rect x="400" y="660" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="400" y="660" width="250" height="90" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="525.0" y="701.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">SST / 整流变换</text>
+<text x="525.0" y="730.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">直接供给 800 VDC</text>
+<rect x="730" y="660" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="730" y="660" width="250" height="90" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="855.0" y="701.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">800 VDC 配电</text>
+<text x="855.0" y="730.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">列级 / 机架级</text>
+<rect x="1060" y="660" width="250" height="90" rx="10" fill="#0f172a"/>
+<rect x="1060" y="660" width="250" height="90" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="1185.0" y="701.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">隔离 IBC + VRM</text>
+<text x="1185.0" y="730.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">800 → 6 / 12 → &lt;1 V</text>
+<rect x="1390" y="660" width="210" height="90" rx="10" fill="#0f172a"/>
+<rect x="1390" y="660" width="210" height="90" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="1495.0" y="701.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">GPU / IT</text>
+<text x="1495.0" y="730.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">板级供电</text>
+<text x="70" y="783" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="400">OCP 中压转 800 VDC + 原厂 IBC / VRM 路线；6 V 与 12 V 均有公开依据</text>
+<text x="40" y="875" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="400">来源：OCP SST v0.3 / OCP LVDC 路线；NVIDIA 2025–2026；TI 2026-03-16。图为本次综合绘制。</text>
+</svg>
