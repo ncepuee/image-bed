@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 950">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e293b" stroke-width="0.6"/></pattern>
+<marker id="a22d3ee" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#22d3ee"/></marker>
+<marker id="a34d399" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#34d399"/></marker>
+<marker id="aa78bfa" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#a78bfa"/></marker>
+<marker id="afbbf24" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#fbbf24"/></marker>
+<marker id="a60a5fa" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#60a5fa"/></marker>
+<marker id="aa9bad0" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#a9bad0"/></marker>
+</defs><style>text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif}</style>
+<rect width="100%" height="100%" fill="#0f172a"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<text x="40" y="52" font-size="30" fill="#f1f5f9" text-anchor="start" font-weight="700">DataCenter_Unit_Circuit：动态状态与功率记账</text>
+<text x="40" y="85" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="400">统一采用有名值；功率沿供电链为正；每个电容只积分一次；储能放电向母线注入为正</text>
+<rect x="30" y="130" width="1620" height="455" rx="15" fill="none" stroke="#22d3ee" stroke-dasharray="9 6" stroke-opacity="0.8"/>
+<text x="47" y="157" font-size="17" fill="#22d3ee" text-anchor="start" font-weight="600">拟扩展的数学模型边界</text>
+<polyline points="305,280 370,280" fill="none" stroke="#22d3ee" stroke-width="2.4" marker-end="url(#a22d3ee)"/>
+<polyline points="620,280 685,280" fill="none" stroke="#22d3ee" stroke-width="2.4" marker-end="url(#a22d3ee)"/>
+<polyline points="935,280 1000,280" fill="none" stroke="#22d3ee" stroke-width="2.4" marker-end="url(#a22d3ee)"/>
+<polyline points="1250,280 1335,280" fill="none" stroke="#22d3ee" stroke-width="2.4" marker-end="url(#a22d3ee)"/>
+<rect x="55" y="220" width="250" height="120" rx="10" fill="#0f172a"/>
+<rect x="55" y="220" width="250" height="120" rx="10" fill="#22d3ee" fill-opacity="0.09" stroke="#22d3ee" stroke-width="1.7"/>
+<text x="180.0" y="276.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">800 V 母线</text>
+<text x="180.0" y="305.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">状态：v₀ / Cdc_dynamic</text>
+<rect x="370" y="220" width="250" height="120" rx="10" fill="#0f172a"/>
+<rect x="370" y="220" width="250" height="120" rx="10" fill="#22d3ee" fill-opacity="0.09" stroke="#22d3ee" stroke-width="1.7"/>
+<text x="495.0" y="276.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">直流馈线 + 输入电容</text>
+<text x="495.0" y="305.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">状态：i_f、v_k</text>
+<rect x="685" y="220" width="250" height="120" rx="10" fill="#0f172a"/>
+<rect x="685" y="220" width="250" height="120" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="810.0" y="276.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">高变比隔离 IBC</text>
+<text x="810.0" y="305.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">谐振包络 / 输出端口</text>
+<rect x="1000" y="220" width="250" height="120" rx="10" fill="#0f172a"/>
+<rect x="1000" y="220" width="250" height="120" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="1125.0" y="276.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">6 V + 多相 VRM</text>
+<text x="1125.0" y="305.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">状态：v₆、iℓ,k、v_g</text>
+<rect x="1335" y="220" width="250" height="120" rx="10" fill="#0f172a"/>
+<rect x="1335" y="220" width="250" height="120" rx="10" fill="#fbbf24" fill-opacity="0.09" stroke="#fbbf24" stroke-width="1.7"/>
+<text x="1460.0" y="276.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">GPU 任务负荷</text>
+<text x="1460.0" y="305.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">P_task(t)、i_GPU</text>
+<text x="180" y="397" font-size="17" fill="#a9bad0" text-anchor="middle" font-weight="400">输入 P_bridge</text>
+<text x="495" y="397" font-size="17" fill="#a9bad0" text-anchor="middle" font-weight="400">馈线损耗 R_f i_f²</text>
+<text x="810" y="397" font-size="17" fill="#a9bad0" text-anchor="middle" font-weight="400">输入功率 P_IBC,in</text>
+<text x="1125" y="397" font-size="17" fill="#a9bad0" text-anchor="middle" font-weight="400">输入功率 P_VRM,in</text>
+<text x="1460" y="397" font-size="17" fill="#a9bad0" text-anchor="middle" font-weight="400">末端功率 v_g i_GPU</text>
+<text x="840" y="465" font-size="25" fill="#f1f5f9" text-anchor="middle" font-weight="600">Cdc_dynamic / Pe ← 后级实际入口功率 + 母线泄漏</text>
+<text x="840" y="514" font-size="21" fill="#fbbf24" text-anchor="middle" font-weight="400">P_task(t) 进入末端负荷；不能再在 800 V 端重复扣除一次。</text>
+<polyline points="180,340 180,650" fill="none" stroke="#a78bfa" stroke-width="2.4" marker-end="url(#aa78bfa)" marker-start="url(#aa78bfa)"/>
+<rect x="55" y="650" width="250" height="105" rx="10" fill="#0f172a"/>
+<rect x="55" y="650" width="250" height="105" rx="10" fill="#a78bfa" fill-opacity="0.09" stroke="#a78bfa" stroke-width="1.7"/>
+<text x="180.0" y="698.5" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">受控储能端口</text>
+<text x="180.0" y="727.5" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">i_bat、i_buf、E_storage</text>
+<rect x="405" y="650" width="510" height="105" rx="10" fill="#0f172a"/>
+<rect x="405" y="650" width="510" height="105" rx="10" fill="#60a5fa" fill-opacity="0.09" stroke="#60a5fa" stroke-width="1.7"/>
+<text x="660.0" y="698.5" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">端口阻抗验证</text>
+<text x="660.0" y="727.5" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">Y_DC(s)、Y_dq(s)：固定任务工作点</text>
+<rect x="1000" y="650" width="590" height="105" rx="10" fill="#0f172a"/>
+<rect x="1000" y="650" width="590" height="105" rx="10" fill="#fbbf24" fill-opacity="0.09" stroke="#fbbf24" stroke-width="1.7"/>
+<text x="1295.0" y="698.5" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">任务功率传播验证</text>
+<text x="1295.0" y="727.5" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">P_task → P_grid：独立扰动试验</text>
+<text x="60" y="840" font-size="20" fill="#a9bad0" text-anchor="start" font-weight="400">先检验：工作点 / KCL / 能量平衡 → 局部扫频 → 全链交流端口扫频 → 任务功率与储能扰动。</text>
+<text x="60" y="890" font-size="18" fill="#a9bad0" text-anchor="start" font-weight="400">本图给出建模与验证边界；截至 2026-11-13，这些新增动态尚未在 Full 模型中实现或验证。</text>
+</svg>
