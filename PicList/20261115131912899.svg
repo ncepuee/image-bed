@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 930">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e293b" stroke-width="0.6"/></pattern>
+<marker id="a22d3ee" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#22d3ee"/></marker>
+<marker id="a34d399" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#34d399"/></marker>
+<marker id="aa78bfa" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#a78bfa"/></marker>
+<marker id="afbbf24" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#fbbf24"/></marker>
+<marker id="a60a5fa" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#60a5fa"/></marker>
+<marker id="aa9bad0" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#a9bad0"/></marker>
+</defs><style>text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif}</style>
+<rect width="100%" height="100%" fill="#0f172a"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<text x="40" y="52" font-size="30" fill="#f1f5f9" text-anchor="start" font-weight="700">拟建目标：原生 800 VDC + 高变比隔离 IBC + 板级 VRM</text>
+<text x="40" y="85" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="400">研究组合方案｜主算例：NVIDIA 64:1 LLC → 约 12 V 局部母线｜不等同于某一家完整产品复现</text>
+<rect x="35" y="125" width="590" height="280" rx="15" fill="none" stroke="#fbbf24" stroke-dasharray="9 6" stroke-opacity="0.8"/>
+<text x="52" y="152" font-size="17" fill="#fbbf24" text-anchor="start" font-weight="600">设施级 / 中压接口</text>
+<rect x="670" y="125" width="355" height="280" rx="15" fill="none" stroke="#22d3ee" stroke-dasharray="9 6" stroke-opacity="0.8"/>
+<text x="687" y="152" font-size="17" fill="#22d3ee" text-anchor="start" font-weight="600">直流配电</text>
+<rect x="1070" y="125" width="570" height="590" rx="15" fill="none" stroke="#34d399" stroke-dasharray="9 6" stroke-opacity="0.8"/>
+<text x="1087" y="152" font-size="17" fill="#34d399" text-anchor="start" font-weight="600">计算托盘 / GPU 附近</text>
+<polyline points="240,275 300,275" fill="none" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#afbbf24)"/>
+<polyline points="585,275 730,275" fill="none" stroke="#22d3ee" stroke-width="2.4" marker-end="url(#a22d3ee)"/>
+<polyline points="975,275 1130,275" fill="none" stroke="#22d3ee" stroke-width="2.4" marker-end="url(#a22d3ee)"/>
+<polyline points="1360,275 1410,275" fill="none" stroke="#34d399" stroke-width="2.4" marker-end="url(#a34d399)"/>
+<polyline points="1505,335 1505,495" fill="none" stroke="#34d399" stroke-width="2.4" marker-end="url(#a34d399)"/>
+<rect x="70" y="220" width="170" height="110" rx="10" fill="#0f172a"/>
+<rect x="70" y="220" width="170" height="110" rx="10" fill="#fbbf24" fill-opacity="0.09" stroke="#fbbf24" stroke-width="1.7"/>
+<text x="155.0" y="271.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">中压 AC</text>
+<text x="155.0" y="300.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">电网 / 馈线</text>
+<rect x="300" y="220" width="285" height="110" rx="10" fill="#0f172a"/>
+<rect x="300" y="220" width="285" height="110" rx="10" fill="#fbbf24" fill-opacity="0.09" stroke="#fbbf24" stroke-width="1.7"/>
+<text x="442.5" y="271.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">SST 前端</text>
+<text x="442.5" y="300.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">AC/DC + 隔离变换</text>
+<rect x="730" y="220" width="245" height="110" rx="10" fill="#0f172a"/>
+<rect x="730" y="220" width="245" height="110" rx="10" fill="#22d3ee" fill-opacity="0.09" stroke="#22d3ee" stroke-width="1.7"/>
+<text x="852.5" y="271.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">800 VDC 母线</text>
+<text x="852.5" y="300.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">C₈₀₀ + 直流馈线</text>
+<rect x="1130" y="220" width="230" height="110" rx="10" fill="#0f172a"/>
+<rect x="1130" y="220" width="230" height="110" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="1245.0" y="271.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">隔离 IBC</text>
+<text x="1245.0" y="300.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">LLC：800 → 约 12 V</text>
+<rect x="1410" y="220" width="190" height="110" rx="10" fill="#0f172a"/>
+<rect x="1410" y="220" width="190" height="110" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="1505.0" y="271.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">VRM</text>
+<text x="1505.0" y="300.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">多相 Buck</text>
+<text x="1505" y="382" font-size="17" fill="#34d399" text-anchor="middle" font-weight="400">&lt; 1 V 局部供电</text>
+<rect x="1395" y="495" width="220" height="110" rx="10" fill="#0f172a"/>
+<rect x="1395" y="495" width="220" height="110" rx="10" fill="#34d399" fill-opacity="0.09" stroke="#34d399" stroke-width="1.7"/>
+<text x="1505.0" y="546.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">GPU / IT 模块</text>
+<text x="1505.0" y="575.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">任务功率 / 电压特性</text>
+<rect x="1110" y="495" width="225" height="110" rx="10" fill="#0f172a"/>
+<rect x="1110" y="495" width="225" height="110" rx="10" fill="#a9bad0" fill-opacity="0.09" stroke="#a9bad0" stroke-width="1.7"/>
+<text x="1222.5" y="546.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">模块聚合</text>
+<text x="1222.5" y="575.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">同参数可等值并联</text>
+<text x="1355" y="657" font-size="17" fill="#a9bad0" text-anchor="middle" font-weight="400">12 V 母线仅在托盘 / 芯片附近使用</text>
+<polyline points="852,330 852,475 570,475 570,560" fill="none" stroke="#a78bfa" stroke-width="2.4" marker-end="url(#aa78bfa)" marker-start="url(#aa78bfa)"/>
+<polyline points="852,475 852,560" fill="none" stroke="#a78bfa" stroke-width="2.4" marker-end="url(#aa78bfa)" marker-start="url(#aa78bfa)"/>
+<rect x="420" y="560" width="300" height="100" rx="10" fill="#0f172a"/>
+<rect x="420" y="560" width="300" height="100" rx="10" fill="#a78bfa" fill-opacity="0.09" stroke="#a78bfa" stroke-width="1.7"/>
+<text x="570.0" y="606.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">电池 + 双向 DC/DC</text>
+<text x="570.0" y="635.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">备用供电 / 较慢功率缓冲</text>
+<rect x="760" y="560" width="270" height="100" rx="10" fill="#0f172a"/>
+<rect x="760" y="560" width="270" height="100" rx="10" fill="#a78bfa" fill-opacity="0.09" stroke="#a78bfa" stroke-width="1.7"/>
+<text x="895.0" y="606.0" font-size="20" fill="#f1f5f9" text-anchor="middle" font-weight="600">快速储能 + DC/DC</text>
+<text x="895.0" y="635.0" font-size="16" fill="#a9bad0" text-anchor="middle" font-weight="400">功率脉动缓冲</text>
+<text x="60" y="750" font-size="22" fill="#f1f5f9" text-anchor="start" font-weight="600">实施映射</text>
+<text x="60" y="792" font-size="19" fill="#a9bad0" text-anchor="start" font-weight="400">第一阶段：现有 400 V AFE 供给 800 V 后级测试台，细化 IBC / VRM / 馈线 / 储能动态。</text>
+<text x="60" y="830" font-size="19" fill="#a9bad0" text-anchor="start" font-weight="400">完整目标：显式接入中压 SST 各变换级；当前 AFE 本身不代表 SST。储能端口位置与控制需在模型中明确。</text>
+<text x="60" y="885" font-size="17" fill="#a9bad0" text-anchor="start" font-weight="400">来源：OCP / NVIDIA（设施与储能）；TI / Microchip / Infineon（IBC 与 VRM）。连线为研究方案。</text>
+</svg>
